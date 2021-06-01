@@ -1,0 +1,157 @@
+VERSION ""
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+BS_:
+BU_: New_Node1
+BO_ 1280 ECAS_Analog_1: 8 New_Node1
+SG_ ADC_CDC_POWER : 0|16@0- (0.1,0) [0|0] "V" New_Node1
+SG_ ADC_AS1_POWER : 16|16@0- (0.1,0) [0|0] "V" New_Node1
+SG_ ON_OFF_VALVE_0_CUR : 32|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ ON_OFF_VALVE_4_CUR : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+BO_ 1281 ECAS_Analog_2: 8 New_Node1
+SG_ ON_OFF_VALVE_6_CUR : 0|16@0- (0.01,0) [0|0] "V" New_Node1
+SG_ ADC_PSI5_12V : 16|16@0- (0.1,0) [0|0] "V" New_Node1
+SG_ ADC_KL30_2_POWER : 32|16@0- (0.1,0) [0|0] "A" New_Node1
+SG_ ADC_CDC_VALVE0_HIGH : 48|16@0- (0.1,0) [0|0] "A" New_Node1
+BO_ 1282 ECAS_Analog_3: 8 New_Node1
+SG_ ADC_CDC_VALVE1_HIGH : 0|16@0- (0.1,0) [0|0] "V" New_Node1
+SG_ ADC_CDC_VALVE2_HIGH : 16|16@0- (0.1,0) [0|0] "V" New_Node1
+SG_ ADC_AS2_POWER : 32|16@0- (0.1,0) [0|0] "A" New_Node1
+SG_ ADC_MCU_5V8 : 48|16@0- (0.1,0) [0|0] "A" New_Node1
+BO_ 1283 ECAS_Analog_4: 8 New_Node1
+SG_ ADC_RELAY_IS : 0|16@0- (0.1,0) [0|0] "V" New_Node1
+SG_ LINEAR_VALVE_0_CUR : 16|16@0- (0.01,0) [0|0] "V" New_Node1
+SG_ LINEAR_VALVE_1_CUR : 32|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_2_CUR : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+BO_ 1284 ECAS_Analog_5: 8 New_Node1
+SG_ LINEAR_VALVE_3_CUR : 0|16@0- (0.01,0) [0|0] "V" New_Node1
+SG_ ADC_KL15 : 16|16@0- (0.1,0) [0|0] "V" New_Node1
+SG_ ON_OFF_VALVE_1_CUR : 32|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ ON_OFF_VALVE_2_CUR : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+BO_ 1285 ECAS_Analog_6: 8 New_Node1
+SG_ ON_OFF_VALVE_3_CUR : 0|16@0- (0.01,0) [0|0] "V" New_Node1
+SG_ A_CH6 : 16|16@0- (0.1,0) [0|0] "V" New_Node1
+SG_ ON_OFF_VALVE_5_CUR : 32|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ A_CH7 : 48|16@0- (0.1,0) [0|0] "A" New_Node1
+BO_ 1286 ECAS_Analog_7: 8 New_Node1
+SG_ ADC_VDD4_5V0 : 0|16@0- (0.1,0) [0|0] "V" New_Node1
+SG_ ON_OFF_VALVE_6_CUR : 16|16@0- (0.01,0) [0|0] "V" New_Node1
+SG_ A_CH2 : 32|16@0- (0.1,0) [0|0] "A" New_Node1
+SG_ A_CH3 : 48|16@0- (0.1,0) [0|0] "A" New_Node1
+BO_ 1287 ECAS_Analog_8: 8 New_Node1
+SG_ A_CH4 : 0|16@0- (0.1,0) [0|0] "V" New_Node1
+SG_ A_CH5 : 16|16@0- (0.1,0) [0|0] "V" New_Node1
+SG_ ADC_1V2 : 32|16@0- (0.1,0) [0|0] "A" New_Node1
+SG_ ADC_CDC_VALVE3_HIGH : 48|16@0- (0.1,0) [0|0] "A" New_Node1
+BO_ 1288 ECAS_Analog_9: 8 New_Node1
+SG_ ADC_AS1_VALVE0_HIGH : 0|16@0- (0.1,0) [0|0] "V" New_Node1
+SG_ ADC_QVR_5V0 : 16|16@0- (0.1,0) [0|0] "V" New_Node1
+SG_ Resserved_1 : 32|16@0- (1,0) [0|0] "V" New_Node1
+SG_ Resserved_2 : 48|16@0- (1,0) [0|0] "V" New_Node1
+BO_ 1360 CANoe_Control_1: 8 New_Node1
+SG_ ON_OFF_VALVE_0_CON : 0|8@0- (1,0) [0|0] "V" New_Node1
+SG_ ON_OFF_VALVE_1_CON : 8|8@0- (1,0) [0|0] "V" New_Node1
+SG_ ON_OFF_VALVE_2_CON : 16|8@0- (1,0) [0|0] "V" New_Node1
+SG_ ON_OFF_VALVE_3_CON : 24|8@0- (1,0) [0|0] "V" New_Node1
+SG_ ON_OFF_VALVE_4_CON : 32|8@0- (1,0) [0|0] "V" New_Node1
+SG_ ON_OFF_VALVE_5_CON : 40|8@0- (1,0) [0|0] "V" New_Node1
+SG_ ON_OFF_VALVE_6_CON : 48|8@0- (1,0) [0|0] "V" New_Node1
+SG_ ON_OFF_VALVE_7_CON : 54|8@0- (1,0) [0|0] "V" New_Node1
+BO_ 1362 CANoe_Control_2: 8 New_Node1
+SG_ ON_OFF_VALVE_8_CON : 0|8@0- (1,0) [0|0] "V" New_Node1
+SG_ Resserved_1 : 8|8@0- (1,0) [0|0] "V" New_Node1
+SG_ Resserved_2 : 16|8@0- (1,0) [0|0] "V" New_Node1
+SG_ Resserved_3 : 24|8@0- (1,0) [0|0] "V" New_Node1
+SG_ Resserved_4 : 32|8@0- (1,0) [0|0] "V" New_Node1
+SG_ Resserved_5 : 40|8@0- (1,0) [0|0] "V" New_Node1
+SG_ Resserved_6 : 48|8@0- (1,0) [0|0] "V" New_Node1
+SG_ Resserved_7 : 54|8@0- (1,0) [0|0] "V" New_Node1
+BO_ 1363 CANoe_Control_3: 8 New_Node1
+SG_ LINEAR_VALVE_0_CUR_CON : 0|16@0- (0.01,0) [0|0] "V" New_Node1
+SG_ LINEAR_VALVE_1_CUR_CON : 16|16@0- (0.01,0) [0|0] "V" New_Node1
+SG_ LINEAR_VALVE_2_CUR_CON : 32|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_3_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+BO_ 1363 CANoe_Control_4: 8 New_Node1
+SG_ LINEAR_VALVE_4_CUR_CON : 0|16@0- (0.01,0) [0|0] "V" New_Node1
+SG_ LINEAR_VALVE_5_CUR_CON : 16|16@0- (0.01,0) [0|0] "V" New_Node1
+SG_ LINEAR_VALVE_6_CUR_CON : 32|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+SG_ LINEAR_VALVE_7_CUR_CON : 48|16@0- (0.01,0) [0|0] "A" New_Node1
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
