@@ -1,6 +1,7 @@
 import java.util.Arrays;
 public class Heap {
     public static void main(String[] args) {
+        //it is the case test.
         Heap heap=new Heap(new int[]{99,-6,3,4,5,6,7,88,9,10,18,21,0,-1,66,8997,7,5,2,1});
         heap.display();
         System.out.println("========");
